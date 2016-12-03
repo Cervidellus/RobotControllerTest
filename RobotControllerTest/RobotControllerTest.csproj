@@ -73,7 +73,6 @@
     </Compile>
     <Compile Include="IRobotInputDevice.cs" />
     <Compile Include="XboxOneController.cs" />
-    <Compile Include="RobotInputDevice.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

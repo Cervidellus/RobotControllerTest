@@ -15,6 +15,8 @@ using System.Windows.Shapes;
 using System.ComponentModel;
 using System.Diagnostics;
 
+//The next thing I want to do is to check the polling rate, then implement things as events rather than polling the controller
+
 namespace RobotControllerTest
 {
     /// <summary>
@@ -59,6 +61,7 @@ namespace RobotControllerTest
         private void PollGamepad()
         {
             IRobotInputDevice robotInputDevice = new XboxOneController();
+           
             bool test = true;
             while (test)
             {
